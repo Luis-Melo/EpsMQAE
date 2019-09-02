@@ -1,0 +1,32 @@
+Teoria: Análise de componentes principais (https://en.wikipedia.org/wiki/Principal_component_analysis)
+
+Tarefas:
+[
+  1 - Escolher um conjunto de dados CSV e avisar ao professor;
+  
+  2 - Todas as variáveis precisam ser numéricas;
+  
+  3- Realizar redução de variáveis:
+  [
+    - Verificar quais variáveis sao essenciais e capazes de gerar todo o resto (dependências);
+    
+    - Eliminar o resto.
+  ]
+  
+  3 - Comentar cada linha do código;
+  
+  4 - Preparar uma apresentação de 10 minutos, contendo:
+  [
+    - Apresentação dos dados;
+    
+    - Quais variáveis foram reduzidas;
+    
+    - Apresentação do código construído;
+    
+    - Quais metodologias utilizamos;
+    
+    - Apresentar o conjunto resultante de dados.
+    
+    - Bonus: Realizar testes de hipótese para garantir que a metodologia é relevante.
+  ]
+]
