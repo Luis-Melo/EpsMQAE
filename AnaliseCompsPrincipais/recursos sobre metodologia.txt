@@ -1,0 +1,12 @@
+https://en.wikipedia.org/wiki/Dimensionality_reduction
+https://en.wikipedia.org/wiki/Principal_component_analysis
+	Introduções à teoria que precisaremos utilizar.
+
+https://www.youtube.com/watch?v=FgakZw6K1QQ
+	Explica em video como o método de PCA funciona.
+
+https://plot.ly/ipython-notebooks/principal-component-analysis/
+	Explica passo a passo como implementar o método de PCA.
+
+https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
+	Código aberto que implementa PCA.
