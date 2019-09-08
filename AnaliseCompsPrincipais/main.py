@@ -62,7 +62,7 @@ def aplicarPCA(dados):
     n = 0
     for varAcumulada in varExpAcum:
         n += 1
-        if varAcumulada >= 0.80:
+        if varAcumulada >= 0.90:
             break
 
     #Obtencao da matriz de projecao
@@ -93,6 +93,10 @@ def colocarSaida(endereco, dados):
 
     headers = np.array(headers)
     dados = np.vstack((headers, dados)).tolist()
+    for linha in range(1, len(dados)):
+        dados[linha][0] = int(float(dados[linha][0]))
+        for coluna in range(1, nColunas):
+            dados[linha][coluna] = "{0:.2f}".format(float(dados[linha][coluna]))
 
     with open(endereco, "w") as f:
         writer = csv.writer(f, delimiter=",")
