@@ -1,0 +1,7 @@
+análise fatorial exploratória e confirmatória
+
+  - encontrar um conjunto adequado de dados
+	  + Realizar todos os testes (Bartlett's, kmo) para garantir a validade dos métodos sobre os dados escolhidos;
+	- Realizar rotação varimax ou quartimax;
+	- Identificar "constructors" (fatores);
+	- Validações Jacknife e bootstrap.
