@@ -1,0 +1,34 @@
+Entender o modelo
+  - Entender os dois métodos: métrico e não-métrico
+
+  - Procurar testes de viabilidade da análise
+
+  - Aplicar cada método sobre um dataset adequado, realizando testes.
+----------------------------------------------------------------------
+Aplicar o modelo
+
+  - Encontrar dois conjuntos de dados: um métrico e outro não
+
+  - Testar os dados para garantir viabilidade da análise
+
+  - Utilizar scikit.manifold.MDS da biblioteca scikit
+
+  - Montar visualizações
+----------------------------------------------------------------------
+Criar apresentação sobre MDS
+  - Objetivo do modelo
+
+  - Tipo dos dados => tipo da análise (métrico vs não-métrico)
+
+  - Apresentar o conceito de métrica
+	como em https://pt.wikipedia.org/wiki/M%C3%A9trica_(matem%C3%A1tica)
+
+  - Explicar decomposição em auto(valores | vetores) para MDS métrico
+
+  - MDS não métrico: estatística stress e sua minimização
+
+  - Testes
+
+  - Nossas utilizações do método
+
+  - Aplicações (mapas perceptuais, ...)
