@@ -1,0 +1,21 @@
+Uma função d: X x X -> [0, infinito] é uma métrica se, e somente se, satisfaz as seguintes propriedades para qualquer x, y em X:
+
+	1 – d(x, y) >= 0;
+	2 – d(x, y) = 0 <=> x = y
+	3 – d(x, y) = d(y, x)
+	4 – d(x, z) <= d(x, y) + d(y, z)
+
+Suponha que os elementos sob análise sejam métricos, ou seja, existe ao menos uma função métrica f sobre os elementos do tipo.
+O objetivo do escalonamento multidimensional métrico é, dado uma matrix Dnxn cujo elemento d (i x j) representa a distância, dada por alguma métrica, entre os elementos i e j, corresponder a cada elemento i um ponto Pi em Rn tal que dist(Pi, Pj) ~= d(i x j) para todos os pares de elementos.
+
+Assumindo uma matriz D(i x j) das distâncias entre n elementos, os pontos em alguma dimensão para os elementos podem ser obtidos através do procedimento abaixo:
+
+	1 – Calcule S = -1/2 HDH’, onde H = I – 1nxn * 1/n;
+	
+	2 – Encontre os autovalores A e autovetores V de S;
+
+	3 – F = (1/n)I^(-1/2) * V * A^(1/2) conterá, na linha i, a representação em Rn do i-ésimo 	elemento, onde n é o número escolhido de autovalores e autovetores.
+
+Referências: 
+	https://en.wikipedia.org/wiki/Metric_(mathematics)
+	https://personal.utdallas.edu/~herve/Abdi-MDS2007-pretty.pdf
