@@ -1,0 +1,27 @@
+MDS é um método de visualização de dados pelas distâncias relativas.
+
+Toma como entrada uma matriz descrevendo para cada par de ítens sua
+diferença segundo alguma medida e retorna uma matriz de coordenadas
+(de quantas dimensões forem escolhidas) que tem as distâncias o mais
+próximas possível das diferenças de entrada, segundo uma função de perda.
+
+A entrada:
+	Existe uma coleção de coisas sobre as quais uma função "distância"
+	D(x, y) está definida. Com o vetor de n coisas X→, a entrada A é:
+	a[i, j] := D(x[i], x[j])
+
+	d é o número de dimensões desejadas no gráfico resultante
+
+A saída:
+	Uma matriz B n×d tal que:
+	||b[i]→ - b[j]→|| ~= a[i, j]
+
+Basicamente isso é feito minimizando a função custo, por exemplo:
+	sum i<j (||b[i]→ - b[j]→|| - a[i, j])²,
+	o que pode ser feito neste caso em termos de diagonalização de matrizes.
+
+TODO detalhar método
+
+MDS métrico:
+	
+
